@@ -1,0 +1,10 @@
+    NaN:  
+    Js give us this, NaN value whenever an operation that involves numbers fails to produce a new number. 
+    So basicallynot a number actually means invalid number.
+
+
+    Js can on;y convert two, three types.
+    So you can convert a number to a string or a boolean
+    But we can't convert something to undefined or to no.
+
+    

@@ -1,0 +1,101 @@
+#######################################################
+DOM
+#######################################################
+DOCUMNET OBJECT MODEL:
+structured representation of HTML Document. Allows JavaScript to access HTML Elements and styles to manipulate them.
+
+The DOM automatically created by the browser as soon as the HTML page loads.
+
+The DOM and DOM methods are part of something called the web API.
+
+The web API are like libraries that browser implement and that we can access from our JavaScript code. 
+
+API: Application Programming Interface
+
+There is an official DOM specification that browsers implement, which is the reason why DOM manipulation works the same in all browsers.
+
+besides the DOM, there are actually a ton more wen API's
+- timers 
+- fetch API
+- ect
+
+#######################################################
+addEventListener
+#######################################################
+addEventListener: 
+Is a method, so we need to call it with () "addEventListener()".
+Inside () put the type of the event ~px click~ as a string.
+  - addEventListener('click')
+And now need to tell the EventListener what to do so basicallyu we need to specify the reaction to the click event.
+And we do that by defining a function. will contain exactly the code that should be executed whenever this click event happens.
+That function is going to be called 
+- the event handler
+addEventListener('click', function () {
+    // here add your code.
+});
+
+that function is similar to the function expression
+   const x = function () {
+            // here add your code.
+            };
+
+
+
+
+function is also just a value. and if a function is just a value, then we can also pass it into another function as an argument. Just like any other value (like a string or a number)
+
+
+
+#######################################################
+refactoring
+#######################################################
+
+refactoring: get rid duplicate code.
+
+
+
+#######################################################
+querySelectorAll
+#######################################################
+
+Output a nodeList with all elements.
+Nodelist is something like-array 
+
+
+#######################################################
+keypress Event
+#######################################################
+
+
+keyup: it happens when we lift or finger off the keyboard basically or off the key.
+
+keypress : is fired continuously as we keep our finger on a certain key.
+
+keydown: is fired as soon as we just press down the key. (and so usually that is the one that we use).
+
+
+
+#######################################################
+flow chart
+#######################################################
+
+You can build a flow chart on diagrams.net 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

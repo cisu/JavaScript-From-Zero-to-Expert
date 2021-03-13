@@ -1,0 +1,75 @@
+how to add new snippets 
+file -> preferences -> User Snippets
+Then give a name to the file.
+
+##########################################################
+4 step to solve any problems
+##########################################################
+1. Ask the right questions
+Make sure you 100% understand the problem.
+Ask the right questions to get 
+a clear picture of the problem.
+
+2. Divide and conquer
+Break a big problem into smaller sub-problems
+
+3. Research
+Don't be afraid to do as much 
+research as you have to.
+
+4. Write pseudo-code.
+For bigger problems, write pseudo-code
+before writing the actual code.
+
+
+##########################################################
+The debugging process
+##########################################################
+
+1. Identify 
+- During development
+- Testing software
+- User reports during prodution
+- COntext: browser, users, ect
+
+2. Find
+- Developer console (simple code)
+- Debugger(complex code)
+
+3. Fix 
+- Replace wrong code with new correct solution.
+
+4. Prevent
+- Searching for the same bug in similar code
+- Writing tests using testing software
+
+
+
+
+
+##########################################################
+ console.
+##########################################################
+
+console.log(); // classic one
+
+console.warn(); // display like a waring 
+
+console.error(); // display like an error
+
+console.table(); // nice format the structure in the table
+
+
+
+
+extension
+Image preview
+TODO Highlight
+
+
+
+twitter
+#100DaysOfCode,
+#CodeNewbie,
+#webdev,
+ect

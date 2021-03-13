@@ -1,0 +1,103 @@
+parameters: is the kind of placeholder in the function 
+
+arguments: is the actual value
+
+px. 
+
+
+function calcAge1(birthYear) // birthYear is a parameter {
+  //   const age = 2037 - birthYear;
+  //   return age;
+  return 2037 - birthYear;
+}
+
+calcAge1(1989); // 1989 is an argument
+
+
+####################################################################
+Arrays
+####################################################################
+
+We can define an array with two different ways to
+
+1) const friends = ['Michael', 'Steven', 'Peter', 1998, 2000];
+
+2) const years = new Array('Michael', 'Steven', 'Peter', 1998, 2000);
+
+The first way is most used with the brackets [] wich is called the literal syntax.
+
+
+####################################################################
+Basic Array Operations
+####################################################################
+## add elements ##
+push method: 
+adds elements to the end of an array. 
+push is a function, and attached t o the array itself 
+
+the push method return the length of the new array.
+
+
+unshift method:
+adds elements to the beggings of the array. 
+
+the unshift method return the length of the new array.
+
+## remove elements ##
+
+pop method:
+it's basically the opposite of the push method.
+So this means that pop will remove the last element of the array,
+and we don't need to pass in any argument. 
+
+the pop method return the removed element
+
+shift method:
+Remove the fisrt element from the array. 
+
+
+
+indexOf: 
+This return the index at which this element is located.
+if the element that we try to cacth didn't exist the indexOf 
+return -1
+
+includes:
+Instead of returning the index of the element will simply return true if the element is in the array and false if it's not.
+And this method uses strict eqality for this check
+px. if we push in the array number 23
+and the try includes('23') as a string then that check will return false.
+
+We can use the includes method to write conditionals.
+So this is a very useful application of this method.
+
+
+####################################################################
+Bot vs Bracket Notation
+####################################################################
+
+undefinded:  is wwhat we get when we try to access a property on an object that does not exist. 
+
+google
+mdn operator precedence
+
+
+## compute
+
+
+####################################################################
+Object Method
+####################################################################
+
+Any function that is attached to an object is called a method.
+
+const george = {
+  firstName: 'George',
+  lastName: 'Grekis',
+  birthYear: 1989,
+
+  // this is a method for the object
+  calcAge: function (birthYear) {
+    return 2037 - birthYear;
+  },
+};
